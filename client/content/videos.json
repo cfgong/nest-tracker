@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "video_link": "https://ustream.tv/embed/6575544",
+    "title": "Oceanside Barn Owls",
+    "original_link": "https://sportsmansparadiseonline.com/barn-owl-cams/oceanside-barn-owls/",
+    "location": "Oceanside, California",
+    "blurb": "Mel (male) & Sydney (female), are a mating pair of barn owls located in Oceanside, California. The owl box owner is originally from Melbourne, Australia. The box was set up in mid November 2010 and the owls could be seen in the box just two weeks later. This owl box is 16ft above the ground in the owners back yard which is near acres of open wilderness. This provides for plenty of hunting grounds for the owls. Incubation is 30-34 days from the date each egg is laid. Unlike chickens, Barn Owls begin to incubate immediately after the 1st egg is laid. Each egg will hatch on a different day. All time is in PST(Pacific Standard Time)."
+  },
+  {
+    "id": 2,
+    "video_link": "https://www.youtube.com/embed/2EwSm8-PL-A",
+    "title": "SVN Barn Owls",
+    "original_link": "https://sportsmansparadiseonline.com/barn-owl-cams/barn-owls-nesting/",
+    "location": "Silicon Valley, California",
+    "blurb": "This camera is located in Northern California’s Bay Area, just south of San Francisco. The 2017-2018 nesting season is the first year for this Barn Owl Nest Box. To learn more information about the new nest box and also about the previous one click here. For more information about this camera stream or to make a donation please visit siliconvalleynaturecam."
+  },
+  {
+    "id": 3,
+    "video_link": "https://www.youtube.com/embed/O6Ir_sMsTtc",
+    "title": "Audubon Osprey Nest",
+    "original_link": "https://explore.org/livecams/national-audubon-society/osprey-nest",
+    "location": "Hog Island, Bremen, Maine, USA",
+    "blurb": "NATIONAL AUDUBON SOCIETY LIVE"
+  },
+  {
+    "id": 4,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=nefl-2019&ratio=16:9&fluid=truec",
+    "title": "Northeast Florida Bald Eagles",
+    "original_link": "https://nefleaglecam.org/",
+    "location": "Northeastern Florida, USA",
+    "blurb": "American Eagle Foundation"
+  },
+  {
+    "id": 5,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=osprey_fobwr-HDOT&ratio=16:9",
+    "title": "Blackwater Osprey",
+    "original_link": "https://hdontap.com/index.php/video/stream/blackwater-refuge-osprey-live-cam?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "Cambridge, MD, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 6,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=camp-roberts-eaglenest_cang-HDOT&ratio=16:9",
+    "title": "Camp Roberts Eagles",
+    "original_link": "https://hdontap.com/index.php/video/stream/camp-roberts-bald-eagles?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "San Miguel, CA, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 7,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=falcons_utica-HDOT-multicam&ratio=16:9",
+    "title": "Utica Falcons",
+    "original_link": "https://hdontap.com/index.php/video/stream/utica-falcons-live-cam?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "Utica, NY, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 8,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=falcon_briess-HDOT&ratio=16:9&fluid=true",
+    "title": "Briess Falcon Cam",
+    "original_link": "https://hdontap.com/index.php/video/stream/briess-falcon-cam?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "Manitowoc, WI, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 9,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=falcon_utaustin-HDOT&ratio=16:9",
+    "title": "UT Falcons",
+    "original_link": "https://hdontap.com/index.php/video/stream/ut-falcons?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "Austin, TX, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 10,
+    "video_link": "https://portal.hdontap.com/s/embed/?stream=barn-owls_letourneau-HDOT-multicam&ratio=16:9",
+    "title": "Eastern Screech Owl",
+    "original_link": "https://hdontap.com/index.php/video/stream/screech-owls?utm_source=hdontap.com&utm_medium=homepagecarousel",
+    "location": "Grapevine, TX, USA",
+    "blurb": "HD on Tap"
+  },
+  {
+    "id": 11,
+    "video_link":"https://portal.hdontap.com/s/embed/?stream=smokey-mtn-eagles-cam1_mux-CUST&ratio=16:9&fluid=true",
+    "title": "Smoky Mountain Bald Eagles",
+    "original_link":"https://smeaglecam.org/",
+    "location": "Smoky Mountains, USA",
+    "blurb":"American Eagle Foundation"
+  },
+  {
+    "id": 12,
+    "video_link":"https://portal.hdontap.com/s/embed/?stream=dollywood-eagles-grant-and-glenda-nest-a3_aef_mux-CUST&ratio=16:9&fluid=true",
+    "title": "Dollywood Bald Eagle",
+    "original_link":"https://dweaglecams.org/",
+    "location": "Pigeon Forge, TN, USA",
+    "blurb":"American Eagle Foundation"
+  }
+]

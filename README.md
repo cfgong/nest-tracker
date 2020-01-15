@@ -8,8 +8,6 @@
 ### To do list
 - learn redux to pass on video to video page
 - figure out loader for images
-- make source link into a button
-- figure out how to lock navigation bar when scrolling
 - correct links in navigation bar
 
 

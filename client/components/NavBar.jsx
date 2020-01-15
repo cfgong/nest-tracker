@@ -9,7 +9,7 @@ const NavBar = props => {
     // TODO: make a link button component 
 
   return (
-    <div className="navigationbar">
+    <div className="navigationbar" style={{position:'fixed', top: '0px', width: '100%', zIndex: '3'}}>
       <a href={icon_link}> Icon</a>
       <NavBarLink link={icon_link} text="About Us" />
       <NavBarLink link={icon_link} text="Video" />

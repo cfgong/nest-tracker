@@ -10,12 +10,15 @@
   --color3: #1CB5AB;
   --color4: #2BBAB1;
   --color5: #A7BBCA;
+
+  --text-main: #4B4B4B;
+  --text-sub: rgba(75, 75, 75, 0.5);
   
   --fullwidth: 100%;
 }
 
 body {
-  height: 100vh;
+  height: fit-content;
   padding: 0em;
   margin: 0em;
 }
@@ -103,9 +106,27 @@ body {
 
 .about {
   background-color: var(--color6);
-  color: var(--color4);
+  color: var(--text-sub);
   margin-top: 40px;
-  height: 200px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.about .header a {
+  color: var(--text-main);
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: var(--color2);
+  border: 1px solid #186661;
+  border-radius: 50px;
+  width: 50vw;
+  height: 1.7em;
+  font-size: 1.5em;
+  margin-bottom: 45px;
 }
 
 .video-card {
@@ -146,11 +167,11 @@ body {
   line-height: 30px;
   text-align: center;
 
-  color: rgba(75, 75, 75, 0.5);
+  color: var(--text-main);
 }
 
 .subtitle a {
-  color: rgba(75, 75, 75, 0.5);
+  color: var(--text-sub);
   font-weight: normal;
 }
 
@@ -169,19 +190,10 @@ iframe {
   position: relative;
 }
 
-.dummy {
-  margin-top: 75%;
-}
-
-.below-dummy {
-  position: absolute;
-  margin: 0;
-}
-
 .video-page-iframe {
   padding: 0px;
 /* TODO: fix for more robust styling  */
-  height: calc(100vh - 60px);
+  height: calc(95vh - 40px);
 } 
 
 .video-page-body {
@@ -189,7 +201,7 @@ iframe {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
- 
+  padding: 20px 20px 20px 0px;
 }
 
 .video-page-video{

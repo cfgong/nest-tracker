@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from './Video';
+//import icon from '../../public/icons/icon.png';
 
 const VideoDisplay = props => {
   const { videos, toVideoPage } = props;
@@ -7,7 +8,7 @@ const VideoDisplay = props => {
     <div className="video-display">
       <div className="row">
         <div className="col-sm-12">
-        <h1 className="header"><a name="videosection" data-hs-anchor="true">Video Display </a></h1>
+          <input className="search" type="text" placeholder="  Search"></input>
         </div>
 
       </div> 

@@ -6,7 +6,7 @@ const NavBarLink = props => {
   return (
     <div className="link">
       <form className="form-inline" action={link} method="get">
-          <button type="submit" class="btn btn-light">{text}</button> 
+          <button type="submit" className="btn btn-light">{text}</button> 
       </form>
     </div>
   );

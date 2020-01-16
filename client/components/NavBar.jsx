@@ -10,10 +10,12 @@ const NavBar = props => {
 
   return (
     <div className="navigationbar">
-      <a href={icon_link}>Home</a>
-      <NavBarLink link={about_link} text="About Us" />
-      <NavBarLink link={video_link} text="Video" />
+      <a href={icon_link} className="nav-button">Home</a>
+
       <NavBarLink link={contact_link} text="Contact" />
+      <NavBarLink link={video_link} text="Video" />
+      <NavBarLink link={about_link} text="About Us" />
+
     </div>
   );
 };

@@ -17,27 +17,25 @@ class VideoPage extends React.Component {
   // TODO: insert a back button to go back to homepage
   render() {
     return (
-      <div className="video-page-body">
+      <div>
         <NavBar icon_link='./index.html' 
           about_link='./index.html#aboutsection'
           video_link='./index.html#videosection'
           contact_link='./index.html#contactsection'/>
-        <div className="row">
-          <div className="col-sm-6">
-            <div className="stack">
+        <div className="video-page-body">
+          <div className="row">
+            <div className="col-sm-6">
               <h2>{this.state.title}</h2>
               <iframe className = "video-page-video" src ={this.state.video_link}></iframe><br/>
               <p>Location: {this.state.video_location}</p>
               <form action={this.state.original_link} method="get" target="_blank">
-                <button type="submit" className="btn btn-light">Source Link</button> 
+                <button type="submit" className="original-button">Original Video Link</button> 
               </form>
               <p>{this.state.blurb}</p>
             </div>
-          </div>
-          <div className="col-sm-6">
-            <div className="stack"> 
-            <iframe className="video-page-iframe" 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdm2PioJrsNQFXZa_R7It2wesSdm5YAySNOcTp2GEWhBnlthQ/viewform"></iframe>
+            <div className="col-sm-6">
+              <iframe className="video-page-iframe" 
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdm2PioJrsNQFXZa_R7It2wesSdm5YAySNOcTp2GEWhBnlthQ/viewform"></iframe>
             </div>
           </div>
         </div>

@@ -5,9 +5,7 @@ const NavBarLink = props => {
 
   return (
     <div className="link">
-      <form className="form-inline" action={link} method="get">
-          <button type="submit" className="btn btn-light">{text}</button> 
-      </form>
+        <a href={link} className="nav-button">{text}</a> 
     </div>
   );
 };

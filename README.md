@@ -6,13 +6,10 @@
 - `npm start`
 
 ### To do list
-- learn redux to pass on video to video page
 - figure out loader for images
-- correct links in navigation bar
-
 
 - compile contact info (to be displayed on homepage)
-- create/ find a logo + favicon
+- create/ find a logo
 - write an "about us" blurb and/or get a background picture to go behind the blurb
 - styling
 

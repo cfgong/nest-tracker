@@ -5,8 +5,8 @@
 
 :root {
   --color0: #1BB5AB;
-  --color1: #DDC48E;
-  --color2: #81857F;
+  --color1: #FFFFFF;
+  --color2: rgba(28, 181, 171, 0.2);
   --color3: #1CB5AB;
   --color4: #2BBAB1;
   --color5: #A7BBCA;

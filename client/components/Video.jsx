@@ -7,7 +7,7 @@ const Video = props => {
   } = video;
   return (
     <div className="col-sm-4 video-card">
-      <div className="video-content" onClick={() => toVideoPage(video_link)}>
+      <div className="video-content" onClick={() => toVideoPage(title, video_link, original_link, location, blurb)}>
         <div className="video-content-container">
           <iframe src ={video_link}></iframe><br/>
         </div>

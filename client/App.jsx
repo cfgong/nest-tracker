@@ -20,13 +20,18 @@ class App extends React.Component {
 
   toVideoPage(video_link){
     console.log(video_link)
+    localStorage.setItem("video_link", video_link);
     location.href='./form.html';
+
   }
   // TODO: figure out how to load images
   render() {
     return (
       <div>
-        <NavBar icon_link='./index.html'/>
+        <NavBar icon_link='./index.html' 
+          about_link='#aboutsection'
+          video_link='#videosection'
+          contact_link='#contactsection'/>
         <About /> 
         <VideoDisplay videos={this.state.videos} toVideoPage={this.toVideoPage}/>
         <Footer />

@@ -10,10 +10,10 @@ const Video = props => {
       <div className="video-content" onClick={() => toVideoPage(video_link)}>
         <h2>{title}</h2>
         <iframe src ={video_link}></iframe><br/>
-        <form action={original_link} method="get" target="_blank">
-          <button type="submit">Source Link</button> 
-        </form>
         <p>Location: {location}</p>
+        <form action={original_link} method="get" target="_blank">
+          <button type="submit" class="btn btn-light">Source Link</button> 
+        </form>
         </div>
     </div>
   );

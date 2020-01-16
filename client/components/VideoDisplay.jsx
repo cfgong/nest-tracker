@@ -5,7 +5,12 @@ const VideoDisplay = props => {
   const { videos, toVideoPage } = props;
   return (
     <div className="video-display">
-      <h1 className="header">Video Display</h1>
+      <div className="row">
+        <div className="col-sm-12">
+        <h1 className="header"><a name="videosection" data-hs-anchor="true">Video Display </a></h1>
+        </div>
+
+      </div> 
       <div className="row">
         {videos.map(video => (
           <Video video={video} 

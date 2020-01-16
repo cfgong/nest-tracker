@@ -1,30 +1,42 @@
 import React from 'react'
 
-import videos from './content/videos.json'
 import NavBar from './components/NavBar'
-import About from './components/About'
-import VideoDisplay from './components/VideoDisplay'
-import Footer from './components/Footer'
 
 class VideoPage extends React.Component {
   constructor() {
     super();
+    this.state = {
+      title: localStorage.getItem("title"),
+      video_link: localStorage.getItem("video_link"),
+      original_link: localStorage.getItem("original_link"),
+      video_location: localStorage.getItem("video_location"),
+      blurb: localStorage.getItem("blurb")
+    }
   }
 
-  // TODO: make a video link component
   // TODO: insert a back button to go back to homepage
-
   render() {
     return (
-      <div className="video-page-body">
-        <NavBar icon_link='./index.html'/>
-        <div className="row">
-          <div className="col-sm-6">
-              Need to learn redux to pass video url
-          </div>
-          <div className="col-sm-6">
+      <div>
+        <NavBar icon_link='./index.html' 
+          about_link='./index.html#aboutsection'
+          video_link='./index.html#videosection'
+          contact_link='./index.html#contactsection'/>
+        <div className="video-page-body">
+          <div className="row">
+            <div className="col-sm-6">
+              <h2>{this.state.title}</h2>
+              <iframe className = "video-page-video" src ={this.state.video_link}></iframe><br/>
+              <p>Location: {this.state.video_location}</p>
+              <form action={this.state.original_link} method="get" target="_blank">
+                <button type="submit" className="original-button">Original Video Link</button> 
+              </form>
+              <p>{this.state.blurb}</p>
+            </div>
+            <div className="col-sm-6">
               <iframe className="video-page-iframe" 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdm2PioJrsNQFXZa_R7It2wesSdm5YAySNOcTp2GEWhBnlthQ/viewform"></iframe>
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdm2PioJrsNQFXZa_R7It2wesSdm5YAySNOcTp2GEWhBnlthQ/viewform"></iframe>
+            </div>
           </div>
         </div>
       </div>

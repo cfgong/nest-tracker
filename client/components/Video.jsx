@@ -9,8 +9,9 @@ const Video = props => {
     <div className="col-sm-4 video-card">
       <div className="video-content" onClick={() => toVideoPage(video_link)}>
         <iframe src ={video_link}></iframe><br/>
+        <p>Location: {location}</p>
         <form action={original_link} method="get" target="_blank">
-          <button type="submit">Source Link</button> 
+          <button type="submit" className="original-button">Original Video Link</button> 
         </form>
         <h2>{title}</h2>
         <p>Location: {location}</p>

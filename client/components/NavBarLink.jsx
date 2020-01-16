@@ -5,7 +5,7 @@ const NavBarLink = props => {
 
   return (
     <div className="link">
-      <a href={link}> {text}</a>
+        <a href={link} className="nav-button">{text}</a> 
     </div>
   );
 };
